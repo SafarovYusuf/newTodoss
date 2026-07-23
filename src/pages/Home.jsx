@@ -1,11 +1,7 @@
-import TodoContaner from "../components/Todo-contaner";
+import ToDoContainer from "../components/Todo-Container";
 
 function Home() {
-  return (
-    <>
-      <TodoContaner />
-    </>
-  );
+  return <ToDoContainer />;
 }
 
 export default Home;
